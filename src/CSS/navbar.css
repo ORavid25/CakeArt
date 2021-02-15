@@ -1,0 +1,25 @@
+body{
+    margin: 100%;
+}
+.navbar {
+    background-color: #d8e2dc;
+    
+}
+
+.logo{
+    display: block;
+    width: 150px;
+    height: 100px;
+}
+
+.mr-auto{
+    background-color: #d8e2dc !important;
+}
+
+.dropdown-menu{
+    left: auto !important;
+    background-color:#d8e2dc !important;
+}
+
+
+

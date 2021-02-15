@@ -1,0 +1,114 @@
+body{
+    margin:100%;
+    
+}
+.background{
+    overflow: auto;/* גלילה בתוך הדיב*/
+    background-image: url('../images/dounts\ background2.png');
+    width: auto;
+    min-height: 744px;
+}
+
+.carousel{
+    height: 450px;
+    width: 650px;
+    margin: 60px 0px 0px 50px;
+}
+
+.contactDiv{
+    display: flex;
+    background-color: #f7cad0;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    width: 900px;
+    border-radius: 12px;
+}
+
+.speech{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+
+.contact{
+    padding: 60px;
+    width: 50%;
+}
+
+.mainDiv{
+    display: flex;
+    background-color: #f7cad0;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    width: 80%;
+    height: 90%;
+    margin: 5px;
+    margin-left: 180px;
+}
+
+.mainRight{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.mainLeft{
+    width: 50%;
+}
+
+.hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(200, 170, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+.shoppingcartDiv{
+  background-color: #f7cad0;
+
+}
+
+.products{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 15px 40px 15px;
+    background-color: #f7cad0;
+    border-radius: 10px;
+    
+
+}
+
+.product{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 22px;
+    padding: 10px; 
+    background-color: #f7cad0;
+    padding-right:0; 
+    border-radius: 10px;
+}
+
+.confirm{
+    font-size: xx-large;
+}
+
+
+.card{
+  margin-left: 15px;
+  margin-bottom: 15px;
+  
+}
+.card-body{
+    border-radius: 50px;
+}
+
+.input{
+    align-items: center;
+    width: 25px;
+    margin:8px;
+}
